@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# Raw source PDFs (usually re-downloaded from Drive, not needed in git)
+hospital_knowledge_base/
+
+# Keep faiss_index/ committed so the deployed app has something to load
+# (comment the next two lines out if you'd rather rebuild it in CI/at deploy time)
